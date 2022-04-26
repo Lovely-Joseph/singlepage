@@ -1,0 +1,172 @@
+.scnddiv{
+  background-image: url("images/bg.jpeg");
+  background-size: cover;
+  height: 700px;
+  text-align: right;
+}
+.scnddiv img{
+  margin-top: 20%;
+  margin-bottom: 10px;
+  margin-right: 20px;
+
+}
+.para{
+  margin-right: 20px;
+}
+.scnddiv p{
+  font-size:20px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+.div3{
+  width:70%;
+  margin: auto;
+  display: flex;
+}
+.div4 img{
+  width: 500px;
+  height: 500px;
+}
+.div5{
+  background-color: rgb(38, 38, 104);
+  margin-top: 140px;
+  margin-left: -90px;
+  height: 20%;
+  width: 40%;
+  text-align: center;
+  color: aqua;
+}
+.red{
+  color:red
+}
+.para2{
+  width: 70%;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 22px;
+}
+.list-bg{
+  background-image: url("images/pic2.jpeg");
+  height: 300px;
+  padding-top: 18%;
+}
+.flex1,.flex2,.flex3{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.flex1 div,.flex2 div, .flex3 div{
+  background-color: rgba(0,0,0,0.4);
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  padding: 4px;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+}
+.contnt1{
+  background-image: url("images/pic3.jpeg");
+  height:30%;
+  padding: 15px;
+}
+.contnt2{
+  background-image: url("images/pic1.jpeg");
+  height:30%;
+  padding: 15px;
+}
+.content1,.content2{
+  padding: 80px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  font-size: 22px;
+}
+.ready{
+  text-align: center;
+}
+.ready p{
+  font-size: 32px;
+  font-weight: bold;
+}
+.ready button{
+  border: 1px solid red;
+  padding: 5px;
+  color: red;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 680px), screen and (orientation: portrait) {
+.flex1,.flex2,.flex3{
+  margin-top: 8px;
+}
+.flex1 div,.flex2 div, .flex3 div{
+  font-size: 28px;
+  padding: 6px;
+}
+.para2{
+  font-size: 40px;
+
+}
+.flex-container{
+  display: block;
+  font-size: 38px;
+}
+.contnt1{
+  background-size:cover ;
+  background-repeat: no-repeat;
+  height:30%;
+  padding: 15px;
+}
+.contnt2{
+  background-size:cover ;
+  background-repeat: no-repeat;
+  height:30%;
+  padding: 15px;
+}
+.content1,.content2{
+  padding: 20px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  font-size: 36px;
+  height: 80%;
+}
+.ready button{
+    width: 200px;
+    font-size: 32px;
+}
+.footer{
+  display: block;
+  font-size: 32px;
+  padding-bottom: 5px;
+}
+.address1,.address2{
+  width: 100%;
+}
+.div3{
+  width:100%;
+  display: block;
+  position: relative;
+}
+.div4 img{
+  width: 100%;
+  height: 800px;
+}
+.div5 {
+  background-color: rgba(38, 38, 104,0.3);
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  color: aqua;
+  position: absolute;
+  top: 20px;
+  margin-left: 5px;
+  font-size: 36px;
+}
+}
